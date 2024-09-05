@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+    font-family: "Gowun Dodum", sans-serif;
+}
+
+body {
+    background-color: lightslategray;
+    margin: 0px;
+    color: white;
+}
+
+.container {
+    width: 1300px;
+    height: 700px;
+    margin: 100px auto;
+    border: 5px solid white;
+    border-radius: 25px;
+    display: flex;
+}
+
+.information-warp {
+    width: 700px;
+    height: 700px;
+
+}
+
+.userbox {
+    margin-left: 20px;
+    width: 750px;
+    height: 200px;
+
+}
+
+.userinfobox {
+    margin: 5px auto;
+    width: 725px;
+    height: 175px;
+    text-align: center;
+}
+
+.userinput {
+    background-color: transparent;
+    width: 605px;
+    height: 125px;
+    font-size: 50px;
+    color: white;
+    margin: 25px auto;
+    padding-left: 100px;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.loginname {
+    background-color: transparent;
+    width: 605px;
+    height: 105px;
+    font-size: 40px;
+    margin: 25px auto;
+    padding-left: 100px;
+    border: none;
+    text-align: center;
+    line-height: 75px;
+    padding-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.informationbox {
+    display: flex;
+
+}
+
+.timewise-warp {
+    margin-left: 20px;
+    width: 450px;
+    height: 500px;
+}
+
+.timebox {
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.today {
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 450px;
+    height: 100px;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 100px;
+}
+
+.clock {
+    margin: 0;
+    width: 450px;
+    height: 150px;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 150px;
+}
+
+.wisebox {
+    font-size: 15px;
+    font-weight: 500;
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 450px;
+    height: 160px;
+    text-align: center;
+
+}
+
+.wisecomment {
+    margin-top: 50px;
+    width: 450px;
+    display: block;
+}
+
+.wisepeople {
+    width: 250px;
+    margin-left: 100px;
+
+    display: block;
+}
+
+.weathermusic-warp {
+    margin-left: 35px;
+    width: 250px;
+    height: 500px;
+}
+
+.wheatherbox {
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 250px;
+    height: 225px;
+    text-align: center;
+}
+
+.wheatherbox>span {
+    display: block;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.wheatherbox>span:first-child {
+    margin-top: 35px;
+}
+
+.musicbox {
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 250px;
+    height: 240px;
+    margin-top: 20px;
+
+}
+
+.youtubemusic {
+    width: 250px;
+    height: 240px;
+    border-radius: 25px;
+}
+
+.todo-warp {
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 500px;
+    height: 700px;
+}
+
+.searchbox {
+    border: 5px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 500px;
+    height: 125px;
+}
+
+.searchdiv {
+    margin-top: 7px;
+    margin-left: 25px;
+    width: 450px;
+    height: 100px;
+}
+
+.searchinput {
+    border-radius: 25px;
+    margin-top: 15px;
+    width: 450px;
+    height: 75px;
+    font-size: 25px;
+    color: black;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.todolistbox {
+    border: 5px solid white;
+    border-radius: 25px;
+    margin-top: 25px;
+    width: 500px;
+    height: 495px;
+}
+
+.todolistboxin {
+    margin-top: 25px;
+    width: 450px;
+    height: 465px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.todotitle {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.todoinput {
+    border-radius: 25px;
+    margin-top: 25px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.todolist {
+    margin-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    width: 370px;
+    height: 280px;
+}
+
+.todolist>li {
+    list-style: none;
+    font-size: 20px;
+    text-align: left
+}
+
+.todolist>li>button {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
