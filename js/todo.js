@@ -17,15 +17,15 @@ function deletoToDo(event) {
 }
 
 function paintTodo(newTodo) {
-    const createLi = document.createElement("li");
-    createLi.id = newTodo.id;
-    const createSpan = document.createElement("span");
+    const createLi = document.createElement("li"); 
+    createLi.id = newTodo.id; 
+    const createSpan = document.createElement("span"); 
     createSpan.innerText = "🐋" + newTodo.text;
     const createBtn = document.createElement("button");
     createBtn.innerText = "🗑️";
     createBtn.addEventListener("click", deletoToDo);
     createLi.appendChild(createSpan);
-    createLi.appendChild(createBtn);
+    createLi.appendChild(createBtn); 
     toDoList.appendChild(createLi);
 }
 
